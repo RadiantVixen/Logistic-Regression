@@ -1,6 +1,5 @@
 import sys
 import matplotlib.pyplot as plt
-
 from utils.csv_reader import read_csv
 from utils.stats import get_numeric_columns
 
@@ -67,3 +66,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

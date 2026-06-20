@@ -1,36 +1,14 @@
 from utils.stats import mean, std
 
 
-def normalize(values):
-
-    mu = mean(values)
-    sigma = std(values)
-
-    normalized = []
-
-    for value in values:
-
-        if sigma == 0:
-            normalized.append(0)
-
-        else:
-            normalized.append((value - mu) / sigma)
-
-    return normalized
-
-
-def normalize_features(data, features):
-
+def fit_normalization(data, features):
     stats = {}
 
     for feature in features:
-
         values = []
 
         for row in data:
-
             value = row[feature]
-
             if isinstance(value, float):
                 values.append(value)
 
@@ -39,16 +17,22 @@ def normalize_features(data, features):
 
         stats[feature] = (mu, sigma)
 
-        for row in data:
+    return stats
 
+
+def apply_normalization(data, features, stats):
+    for row in data:
+        for feature in features:
             value = row[feature]
 
-            if isinstance(value, float):
+            if not isinstance(value, float):
+                continue
 
-                if sigma == 0:
-                    row[feature] = 0
+            mu, sigma = stats[feature]
 
-                else:
-                    row[feature] = (value - mu) / sigma
+            if sigma == 0:
+                row[feature] = 0.0
+            else:
+                row[feature] = (value - mu) / sigma
 
-    return data, stats
+    return data

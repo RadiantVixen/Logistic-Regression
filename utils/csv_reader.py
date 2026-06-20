@@ -25,7 +25,7 @@ def read_csv(path):
             for key, value in row.items():
 
                 if value == "":
-                    clean_row[key] = None
+                    clean_row[key] = 0
 
                 else:
 

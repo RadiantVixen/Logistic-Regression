@@ -72,7 +72,7 @@ def get_numeric_columns(data):
 
         for row in data:
 
-            if isinstance(row[key], float):
+            if isinstance(row[key], float) and key != "Index" and key != "First Name":
                 numeric_count += 1
 
         if numeric_count > 0:

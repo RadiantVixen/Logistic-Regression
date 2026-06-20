@@ -1,0 +1,13 @@
+WEIGHTS
+Gryffindor:{}
+Hufflepuff:{}
+Ravenclaw:{}
+Slytherin:{}
+
+BIASES
+Gryffindor:-3.302673415479266
+Hufflepuff:-1.1097763924924688
+Ravenclaw:-5.225147018517039
+Slytherin:-2.923952852489676
+
+NORMALIZATION
