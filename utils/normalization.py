@@ -1,3 +1,5 @@
+from utils import stats
+from utils import stats
 from utils.stats import mean, std
 
 
@@ -27,7 +29,7 @@ def apply_normalization(data, features, stats):
 
             if not isinstance(value, float):
                 continue
-
+            
             mu, sigma = stats[feature]
 
             if sigma == 0:

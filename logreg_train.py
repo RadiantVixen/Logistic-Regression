@@ -6,14 +6,13 @@ from utils.csv_reader import read_csv
 from utils.stats import get_numeric_columns
 
 
-EPOCHS = 1000
+EPOCHS = 10
 LEARNING_RATE = 0.01
 
 
 def calc_z(row, weights, bias, features):
     z = bias
     for feature in features:
-        print(f"Feature: {feature}, Value: {row[feature]}, Weight: {weights[feature]}")
         z += weights[feature] * row[feature]
     return z
 
@@ -116,7 +115,6 @@ if __name__ == "__main__":
     data = read_csv(path)
 
     features = get_numeric_columns(data)
-    # print(f"Numeric features: {features}")
 
     stats = fit_normalization(data, features)
     data = apply_normalization(data, features, stats)
