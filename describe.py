@@ -5,6 +5,7 @@ from utils.csv_reader import read_csv
 from utils.stats import (
     mean,
     std,
+    variance,
     minimum,
     maximum,
     percentile,
@@ -35,11 +36,14 @@ def main():
         print(f"Count : {len(values)}")
         print(f"Mean  : {mean(values)}")
         print(f"Std   : {std(values)}")
+        print(f"Var   : {variance(values)}")
         print(f"Min   : {minimum(values)}")
         print(f"25%   : {percentile(values, 25)}")
         print(f"50%   : {percentile(values, 50)}")
         print(f"75%   : {percentile(values, 75)}")
         print(f"Max   : {maximum(values)}")
+        print(f"Range : {maximum(values) - minimum(values)}")
+        print(f"IQR   : {percentile(values, 75) - percentile(values, 25)}")
 
 
 if __name__ == "__main__":

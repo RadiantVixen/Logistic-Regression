@@ -1,14 +1,14 @@
 WEIGHTS
-Gryffindor:{'Arithmancy': -0.5912563346182327, 'Astronomy': 1.727561015400205, 'Herbology': -3.3352357800720545, 'Defense Against the Dark Arts': 0.8518216706535814, 'Divination': 2.3122599849886813, 'Muggle Studies': 1.3705448946085563, 'Ancient Runes': 0.5790401260505451, 'History of Magic': -1.3657153335511314, 'Transfiguration': -1.2806552736397019, 'Potions': 0.011356605514816242, 'Care of Magical Creatures': -0.0691909920425476, 'Charms': -0.7920102125478415, 'Flying': 0.32738050116366657}
-Hufflepuff:{'Arithmancy': 0.3586473142237278, 'Astronomy': 4.18433131830352, 'Herbology': 3.0219102651943848, 'Defense Against the Dark Arts': 0.393752564191996, 'Divination': -0.808334338655114, 'Muggle Studies': -0.8525331221389367, 'Ancient Runes': -1.4456036264395444, 'History of Magic': 0.8174277644463414, 'Transfiguration': 0.1633489612328108, 'Potions': -0.061862755841760694, 'Care of Magical Creatures': 0.0012951100342240866, 'Charms': 0.04502623871154496, 'Flying': -0.27948374642830587}
-Ravenclaw:{'Arithmancy': 0.31864690118693084, 'Astronomy': -3.8278638048716367, 'Herbology': 2.2680934716261736, 'Defense Against the Dark Arts': -0.8502348827885596, 'Divination': 0.9455728670086679, 'Muggle Studies': 1.3350275525693096, 'Ancient Runes': 1.3505482971503682, 'History of Magic': -0.39250524938792103, 'Transfiguration': -0.40116012036965265, 'Potions': 0.48760256920613915, 'Care of Magical Creatures': -0.03289040752891325, 'Charms': -0.7104796295095263, 'Flying': -0.28109231672446006}
-Slytherin:{'Arithmancy': 0.45211859343474436, 'Astronomy': -2.9474524244549194, 'Herbology': -2.4863660901410287, 'Defense Against the Dark Arts': -1.0690792818268606, 'Divination': -1.361087704906405, 'Muggle Studies': -0.032871601045539434, 'Ancient Runes': -2.208903622569813, 'History of Magic': 0.904151028193988, 'Transfiguration': 0.4541541519561909, 'Potions': 0.37457872829810407, 'Care of Magical Creatures': -0.16372889236026583, 'Charms': 0.45318888193302964, 'Flying': 0.8429109997536558}
+Gryffindor:{'Arithmancy': -0.28933821712228397, 'Astronomy': 0.15395125906287538, 'Herbology': -0.915153128992007, 'Defense Against the Dark Arts': -0.1454735637702292, 'Divination': 0.39335693985669223, 'Muggle Studies': -0.07565818538696095, 'Ancient Runes': 0.8132263785467242, 'History of Magic': -0.7713211916600193, 'Transfiguration': -0.9619676205388699, 'Potions': -0.17062337586221243, 'Care of Magical Creatures': -0.00867064233158796, 'Charms': -0.3555588213418815, 'Flying': 0.8468155150023547}
+Hufflepuff:{'Arithmancy': 0.14691690442853694, 'Astronomy': 1.2323016201262387, 'Herbology': 1.2234388626300814, 'Defense Against the Dark Arts': -1.2564219687525295, 'Divination': 0.5772163489091798, 'Muggle Studies': -0.7812749534262704, 'Ancient Runes': -1.3062544395806224, 'History of Magic': 0.7418362325876452, 'Transfiguration': 0.6792079962841606, 'Potions': -0.35162722909231503, 'Care of Magical Creatures': -0.013290724998747623, 'Charms': -0.07889189570450195, 'Flying': -0.5046562462324816}
+Ravenclaw:{'Arithmancy': 0.20795816741537473, 'Astronomy': -0.6975180379190692, 'Herbology': 0.5129954727035193, 'Defense Against the Dark Arts': 0.7003196950922984, 'Divination': 0.35422612799405895, 'Muggle Studies': 1.1716797937488228, 'Ancient Runes': 0.9660625030313628, 'History of Magic': 0.05612892185049695, 'Transfiguration': 0.039569549971351196, 'Potions': -0.003894276832808326, 'Care of Magical Creatures': 0.0411779807699795, 'Charms': 1.0195524521360335, 'Flying': 0.06054014231301991}
+Slytherin:{'Arithmancy': -0.014469645947032825, 'Astronomy': -0.6676056550777846, 'Herbology': -0.8048536280475316, 'Defense Against the Dark Arts': 0.6745360051606687, 'Divination': -1.4085159196238988, 'Muggle Studies': -0.3489263009049172, 'Ancient Runes': -0.574481880173563, 'History of Magic': 0.003802965168329832, 'Transfiguration': 0.28378085145495663, 'Potions': 0.5380662671674522, 'Care of Magical Creatures': -0.0478203407748229, 'Charms': -0.6479807824307645, 'Flying': -0.47525660975221873}
 
 BIASES
-Gryffindor:-3.1630837275618604
-Hufflepuff:-2.3347115367401297
-Ravenclaw:-2.553891291913645
-Slytherin:-3.525083123630386
+Gryffindor:-2.510327733330303
+Hufflepuff:-1.6572606145527842
+Ravenclaw:-2.03333967896209
+Slytherin:-2.761090974215721
 
 NORMALIZATION
 Arithmancy:49634.57024265645,16674.47957652662
