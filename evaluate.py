@@ -29,7 +29,13 @@ def predict_row(raw, features, weights, biases):
         bias = biases[house]
         z = calculate_z(x, list(w.values()), bias)
         probabilities[house] = calculate_sigmoid(z)
-    return max(probabilities, key=probabilities.get)
+    predicted_house = None
+    max_prob = -1.0
+    for house, prob in probabilities.items():
+        if prob > max_prob:
+            max_prob = prob
+            predicted_house = house
+    return predicted_house
 
 
 def main():

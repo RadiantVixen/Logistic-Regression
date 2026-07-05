@@ -32,14 +32,26 @@ def minimum(values):
 
     clean = [v for v in values if v is not None]
 
-    return min(clean)
+    if not clean:
+        return None
+    res = clean[0]
+    for v in clean[1:]:
+        if v < res:
+            res = v
+    return res
 
 
 def maximum(values):
 
     clean = [v for v in values if v is not None]
 
-    return max(clean)
+    if not clean:
+        return None
+    res = clean[0]
+    for v in clean[1:]:
+        if v > res:
+            res = v
+    return res
 
 
 def percentile(values, p):

@@ -36,7 +36,7 @@ def main():
             plot_colors.append(house_colors.get(house, default_color))
 
     if not x_values:
-        print(print(f"Error: No valid numerical data found for pairs: {feature_x} vs {feature_y}"))
+        print(f"Error: No valid numerical data found for pairs: {feature_x} vs {feature_y}")
         return
 
     plt.figure(figsize=(10, 7))
